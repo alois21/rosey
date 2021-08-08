@@ -15,7 +15,19 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0; }
+body {
+  background:#333333;
+  }
 
+  .view{
+    border-radius: 40px;
+    background: #e6be11e0;
+    color: aliceblue;
+    text-decoration: none;
+}
+.color_text{
+  color: white;
+}
 @font-face {
   font-family: "Angeline_Vintage";
   src: url(../fonts/Angeline_Vintage.ttf); }
@@ -38,6 +50,10 @@ h1, h2, h3, h4, h5, h6 {
 .container-fluid {
   padding: 0; }
 
+
+.songs{
+  background: url(../images/img2.JPG);
+}
 .card {
   border: none;
   border-radius: 0; }
@@ -348,7 +364,7 @@ header {
       float: left;
       color: #ffffff !important;
       background: #e6be11e0 !important;
-      border-radius: 3px;
+      border-radius: 20px;
       box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.48);
       width: 41px;
       height: 41px;
@@ -513,6 +529,7 @@ header {
   top: 0; }
   .fh5co-recent-news .top-area .fa-heart {
     color: #777777; }
+  
 .fh5co-recent-news .bottom-area {
   position: absolute;
   display: block;
@@ -526,9 +543,7 @@ header {
   .fh5co-recent-news .bottom-area h4 {
     font-size: 16px; }
 
-.stay {
-  background: url(../images/stay-bg.png);
-  background-repeat: repeat; }
+
   .stay h2 {
     font-size: 48px;
     color: #e6be11e0; }
